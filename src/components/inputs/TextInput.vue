@@ -12,9 +12,9 @@
 <script setup lang="ts">
 import { defineProps, defineEmits } from "vue";
 
-const props = defineProps<{
+defineProps<{
   id: string;
-  modelValue: string | number; // Allow string or number for v-model
+  modelValue: string | number;
   type: string;
   placeholder?: string;
 }>();
