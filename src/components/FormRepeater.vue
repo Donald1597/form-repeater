@@ -2,7 +2,7 @@
   <div class="p-6 max-w-6xl mx-auto">
     <!-- Add Field to All Sections -->
     <div
-      class="mb-6 bg-gradient-to-r from-blue-500 to-blue-600 p-6 rounded-xl shadow-lg text-center"
+      class="mb-6 bg-gradient-to-r from-blue-400 to-blue-500 p-6 rounded-xl shadow-lg text-center"
     >
       <label
         for="global-field-label"
@@ -33,7 +33,7 @@
       </select>
       <button
         @click="addFieldToAllSections"
-        class="mt-4 px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-lg shadow-md hover:from-blue-700 hover:to-blue-900 transition-colors duration-300"
+        class="mt-4 px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white rounded-lg shadow-md hover:from-blue-700 hover:to-blue-900 transition-colors duration-300"
       >
         Add Field to All Sections
       </button>
@@ -43,7 +43,7 @@
     <div class="flex justify-end mb-6 space-x-3">
       <button
         @click="addSection"
-        class="p-3 bg-gradient-to-r from-green-500 to-green-700 text-white rounded-full shadow-md hover:from-green-600 hover:to-green-800 transition-colors duration-300"
+        class="p-3 bg-gradient-to-r from-green-400 to-green-600 text-white rounded-full shadow-md hover:from-green-600 hover:to-green-800 transition-colors duration-300"
         aria-label="Add Section"
       >
         <svg
@@ -73,7 +73,7 @@
       <div>
         <button
           @click="removeSection(index)"
-          class="p-2 bg-gradient-to-r from-red-500 to-red-700 text-white rounded-full shadow-md hover:from-red-600 hover:to-red-800 transition-colors duration-300"
+          class="p-2 bg-gradient-to-r from-red-400 to-red-600 text-white rounded-full shadow-md hover:from-red-500 hover:to-red-700 transition-colors duration-300"
           aria-label="Remove Section"
         >
           <svg
@@ -171,7 +171,7 @@
             />
             <button
               @click="removeField(index, fieldIndex)"
-              class="p-2 bg-gradient-to-r from-red-500 to-red-700 text-white rounded-full shadow-md hover:from-red-600 hover:to-red-800 transition-colors duration-300"
+              class="p-2 bg-gradient-to-r from-red-400 to-red-600 text-white rounded-full shadow-md hover:from-red-500 hover:to-red-700 transition-colors duration-300"
               aria-label="Remove Field"
             >
               <svg
@@ -200,7 +200,7 @@
 
         <button
           @click="openAddFieldModal(index)"
-          class="mt-4 px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white rounded-lg shadow-md hover:from-blue-600 hover:to-blue-800 transition-colors duration-300"
+          class="mt-4 px-4 py-2 bg-gradient-to-r from-blue-400 to-blue-600 text-white rounded-lg shadow-md hover:from-blue-500 hover:to-blue-700 transition-colors duration-300"
         >
           <svg
             class="w-6 h-6 inline-block mr-2"
@@ -228,7 +228,7 @@
         class="fixed inset-0 bg-gray-800 bg-opacity-60 flex items-center justify-center"
       >
         <div
-          class="bg-gradient-to-r from-gray-700 to-gray-900 p-6 rounded-lg shadow-lg max-w-sm w-full dark:text-gray-300"
+          class="bg-gradient-to-r from-gray-600 to-gray-800 p-6 rounded-lg shadow-lg max-w-sm w-full dark:text-gray-300"
         >
           <h3 class="text-lg font-semibold mb-4 text-white">Add Field</h3>
           <label
@@ -261,13 +261,13 @@
           <div class="flex justify-end space-x-3 mt-4">
             <button
               @click="addFieldToCurrentSection"
-              class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white rounded-lg shadow-md hover:from-blue-600 hover:to-blue-800 transition-colors duration-300"
+              class="px-4 py-2 bg-gradient-to-r from-blue-400 to-blue-600 text-white rounded-lg shadow-md hover:from-blue-500 hover:to-blue-700 transition-colors duration-300"
             >
               Add Field
             </button>
             <button
               @click="closeAddFieldModal"
-              class="px-4 py-2 bg-gradient-to-r from-gray-600 to-gray-800 text-white rounded-lg shadow-md hover:from-gray-700 hover:to-gray-900 transition-colors duration-300"
+              class="px-4 py-2 bg-gradient-to-r from-gray-500 to-gray-700 text-white rounded-lg shadow-md hover:from-gray-600 hover:to-gray-800 transition-colors duration-300"
             >
               Cancel
             </button>
@@ -280,7 +280,7 @@
     <div class="text-center">
       <button
         @click="submitForm"
-        class="mt-6 px-4 py-2 bg-gradient-to-r from-green-500 to-green-700 text-white rounded-lg shadow-md hover:from-green-600 hover:to-green-800 transition-colors duration-300"
+        class="mt-6 px-4 py-2 bg-gradient-to-r from-green-400 to-green-700 text-white rounded-lg shadow-md hover:from-green-600 hover:to-green-800 transition-colors duration-300"
       >
         Submit
       </button>
